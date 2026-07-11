@@ -1,0 +1,20 @@
+# Informa o início da execução do ESLint.
+echo "Executando ESLint..."
+
+# Executa a verificação do ESLint.
+npm run lint || exit 1
+
+# Informa o início da verificação do Prettier.
+echo "Verificando Prettier..."
+
+# Verifica a formatação do código.
+npm run format:check || exit 1
+
+# Informa o início da execução dos testes.
+echo "Executando testes..."
+
+# Executa os testes do projeto.
+npm test || exit 1
+
+# Informa que todas as validações foram concluídas com sucesso.
+echo "Pré-commit validado com sucesso."
