@@ -1,0 +1,13 @@
+# Desabilita a criação de Issues em branco.
+blank_issues_enabled: false
+
+# Lista de links de contato exibidos na página de Issues.
+contact_links:
+  # Link para a documentação do projeto.
+  - name: Documentação do Projeto
+
+    # Descrição exibida ao usuário.
+    about: Consulte a documentação antes de abrir uma nova Issue.
+
+    # URL da documentação do projeto.
+    url: https://github.com/lucasitdias/desafio-tecnico-berna/tree/dev/docs
