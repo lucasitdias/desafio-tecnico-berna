@@ -1,6 +1,7 @@
 # Planejamento
 
 ## Índice
+
 - [Planejamento](#planejamento)
   - [Índice](#índice)
 - [Objetivo](#objetivo)

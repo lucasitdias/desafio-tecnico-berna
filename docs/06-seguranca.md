@@ -1,6 +1,7 @@
 # Segurança
 
 ## Índice
+
 - [Segurança](#segurança)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -113,6 +114,8 @@ Nunca versionar:
 Sempre utilizar:
 
 - `.gitignore`;
+- GitHub Actions;
+- Husky;
 - branches de desenvolvimento;
 - Pull Requests;
 - revisão antes do merge.
@@ -182,7 +185,7 @@ Durante toda a implementação deverão ser seguidas as seguintes práticas.
 - revisar alterações antes do merge;
 - manter documentação atualizada;
 - validar funcionamento antes de integrar alterações;
-- utilizar ferramentas de qualidade definidas para o projeto.
+- utilizar ESLint, Prettier, Husky e GitHub Actions para validação automática.
 
 ---
 

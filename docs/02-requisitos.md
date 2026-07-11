@@ -1,6 +1,7 @@
 # Requisitos
 
 ## Índice
+
 - [Requisitos](#requisitos)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -93,19 +94,19 @@ Conforme definido, esta implementação utilizará as tecnologias base esperadas
 
 A tabela abaixo reproduz as orientações do PDF, diferenciando tecnologias base, recomendações, boas práticas e itens apresentados apenas como reflexão.
 
-| Tecnologia | Situação no desafio | Finalidade |
-|------------|---------------------|------------|
-| React.js |  Tecnologia base esperada | Construção da interface, componentização e gerenciamento de estado |
-| GitHub |  Tecnologia base esperada | Versionamento do código |
-| Vercel |  Tecnologia base esperada | Configuração de ambiente e deploy contínuo |
-| Tailwind CSS | Recomendado | Estilização da interface |
-| Git |  Necessário para utilizar o GitHub | Controle de versão local |
-| Variáveis `.env` |  Citadas nas boas práticas | Proteção de informações sensíveis |
-| Testes Unitários |  Diferencial | Garantir a qualidade e estabilidade do código |
-| Clean Code | Boa prática | Melhorar organização e manutenção do projeto |
-| UX/UI |  Diferencial | Melhorar a experiência do usuário |
-| Neon (Serverless Postgres) | Evolução futura | Possível banco de dados caso a autenticação deixe de ser mockada |
-| Rate Limit | Evolução futura | Possível proteção contra ataques de força bruta |
+| Tecnologia                 | Situação no desafio               | Finalidade                                                         |
+| -------------------------- | --------------------------------- | ------------------------------------------------------------------ |
+| React.js                   | Tecnologia base esperada          | Construção da interface, componentização e gerenciamento de estado |
+| GitHub                     | Tecnologia base esperada          | Versionamento do código                                            |
+| Vercel                     | Tecnologia base esperada          | Configuração de ambiente e deploy contínuo                         |
+| Tailwind CSS               | Recomendado                       | Estilização da interface                                           |
+| Git                        | Necessário para utilizar o GitHub | Controle de versão local                                           |
+| Variáveis `.env`           | Citadas nas boas práticas         | Proteção de informações sensíveis                                  |
+| Testes Unitários           | Diferencial                       | Garantir a qualidade e estabilidade do código                      |
+| Clean Code                 | Boa prática                       | Melhorar organização e manutenção do projeto                       |
+| UX/UI                      | Diferencial                       | Melhorar a experiência do usuário                                  |
+| Neon (Serverless Postgres) | Evolução futura                   | Possível banco de dados caso a autenticação deixe de ser mockada   |
+| Rate Limit                 | Evolução futura                   | Possível proteção contra ataques de força bruta                    |
 
 > **Importante**
 >
@@ -384,12 +385,12 @@ Durante o desenvolvimento cada funcionalidade deverá ser vinculada ao seu respe
 
 Exemplo:
 
-| Requisito | Implementação |
-|-----------|---------------|
-| RF-01 | Tela de Login |
-| RF-02 | Validação dos Campos |
-| RF-03 | Feedback Visual |
-| RF-04 | Área Protegida |
+| Requisito | Implementação        |
+| --------- | -------------------- |
+| RF-01     | Tela de Login        |
+| RF-02     | Validação dos Campos |
+| RF-03     | Feedback Visual      |
+| RF-04     | Área Protegida       |
 
 Esta rastreabilidade facilitará a validação final do projeto.
 

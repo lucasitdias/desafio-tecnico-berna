@@ -1,6 +1,7 @@
 # Arquitetura do Projeto
 
 ## Índice
+
 - [Arquitetura do Projeto](#arquitetura-do-projeto)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -423,4 +424,3 @@ Esta etapa será considerada concluída quando:
 - Vite → [Site Oficial](https://vitejs.dev/) | [Documentação](https://vite.dev/guide/)
 
 ---
-

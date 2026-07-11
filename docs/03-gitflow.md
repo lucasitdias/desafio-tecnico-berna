@@ -1,6 +1,7 @@
 # Versionamento (Git Flow)
 
 ## Índice
+
 - [Versionamento (Git Flow)](#versionamento-git-flow)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -87,6 +88,7 @@ main
       ├── chore/*
       └── hotfix/*
 ```
+
 Cada branch possui uma responsabilidade específica.
 
 ---
@@ -318,11 +320,16 @@ chore:
 
 Manutenção.
 
+> **Obs:**
+> Também será utilizado para alterações relacionadas à infraestrutura do projeto, como configurações do GitHub Actions, Husky, ESLint, Prettier e demais ferramentas de desenvolvimento.
+
 ---
 
 # Pull Requests
 
 Toda alteração deverá ser enviada através de Pull Request.
+
+Os Pull Requests deverão utilizar o template padronizado definido para o projeto, garantindo consistência durante o processo de revisão.
 
 Objetivos:
 
@@ -356,7 +363,7 @@ Recomendações:
 - impedir commits diretos;
 - exigir Pull Request;
 - exigir aprovação antes do merge;
-- exigir execução do pipeline de validação.
+- exigir aprovação do pipeline do GitHub Actions antes do merge.
 
 Estas configurações aumentam a segurança e reduzem riscos durante o desenvolvimento.
 
@@ -371,6 +378,7 @@ Durante o desenvolvimento deverão ser seguidas as seguintes práticas:
 - realizar commits frequentes;
 - escrever mensagens claras;
 - atualizar a branch antes do merge;
+- utilizar os templates de Issues e Pull Requests do repositório.
 - remover branches concluídas.
 
 ---

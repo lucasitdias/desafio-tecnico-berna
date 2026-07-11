@@ -1,6 +1,7 @@
 # Planejamento Geral
 
 ## Índice
+
 - [Planejamento Geral](#planejamento-geral)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -57,25 +58,25 @@ Este planejamento foi elaborado com base nas informações fornecidas no desafio
 
 Esta seção consolida todas as tecnologias e práticas mencionadas no desafio técnico, diferenciando claramente o que faz parte da implementação obrigatória, o que é recomendado, o que representa uma boa prática e o que foi apresentado apenas como reflexão para evolução futura.
 
-| Tecnologia / Recurso | Status | Observação |
-|-----------------------|--------|------------|
-| React.js |  Tecnologia base esperada | Utilizado para construção da interface, componentização e gerenciamento de estado. |
-| GitHub |  Tecnologia base esperada | Utilizado para versionamento do código e entrega do repositório. |
-| Vercel |  Tecnologia base esperada | Utilizado para publicação (deploy) da aplicação. |
-| Tailwind CSS |  Fortemente recomendado | Recomendado pelo desafio para estilização da interface. |
-| Git |  Necessário (implícito) | Necessário para utilizar o GitHub e realizar o versionamento do projeto. |
-| Variáveis de ambiente (.env) |  Citadas pelo desafio | Utilizadas para proteger informações sensíveis durante o desenvolvimento e deploy. |
-| Testes Unitários |  Diferencial opcional | Citado pelo desafio como forma de aumentar a confiabilidade da aplicação. |
-| Clean Code |  Diferencial / Boa prática | Incentivado para melhorar organização, legibilidade e manutenção do código. |
-| UX / UI |  Diferencial | Melhorias visuais e de experiência do usuário que agregam valor à entrega. |
-| Neon (Serverless PostgreSQL) |  Reflexão para evolução futura | Citado apenas como possibilidade para uma futura integração com banco de dados. Não será utilizado neste desafio. |
-| Rate Limit (Proteção contra força bruta) |  Reflexão para evolução futura | Citado apenas como cenário de reflexão. Não será implementado neste desafio. |
+| Tecnologia / Recurso                     | Status                        | Observação                                                                                                        |
+| ---------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| React.js                                 | Tecnologia base esperada      | Utilizado para construção da interface, componentização e gerenciamento de estado.                                |
+| GitHub                                   | Tecnologia base esperada      | Utilizado para versionamento do código e entrega do repositório.                                                  |
+| Vercel                                   | Tecnologia base esperada      | Utilizado para publicação (deploy) da aplicação.                                                                  |
+| Tailwind CSS                             | Fortemente recomendado        | Recomendado pelo desafio para estilização da interface.                                                           |
+| Git                                      | Necessário (implícito)        | Necessário para utilizar o GitHub e realizar o versionamento do projeto.                                          |
+| Variáveis de ambiente (.env)             | Citadas pelo desafio          | Utilizadas para proteger informações sensíveis durante o desenvolvimento e deploy.                                |
+| Testes Unitários                         | Diferencial opcional          | Citado pelo desafio como forma de aumentar a confiabilidade da aplicação.                                         |
+| Clean Code                               | Diferencial / Boa prática     | Incentivado para melhorar organização, legibilidade e manutenção do código.                                       |
+| UX / UI                                  | Diferencial                   | Melhorias visuais e de experiência do usuário que agregam valor à entrega.                                        |
+| Neon (Serverless PostgreSQL)             | Reflexão para evolução futura | Citado apenas como possibilidade para uma futura integração com banco de dados. Não será utilizado neste desafio. |
+| Rate Limit (Proteção contra força bruta) | Reflexão para evolução futura | Citado apenas como cenário de reflexão. Não será implementado neste desafio.                                      |
 
 ## Importante
 
 As tecnologias acima representam exatamente o que foi apresentado no desafio técnico.
 
-As ferramentas abaixo ``não fazem parte dos requisitos do desafio``, estão sendo adotadas exclusivamente como infraestrutura de desenvolvimento para garantir organização, qualidade, segurança e padronização durante a implementação:
+As ferramentas abaixo `não fazem parte dos requisitos do desafio`, estão sendo adotadas exclusivamente como infraestrutura de desenvolvimento para garantir organização, qualidade, segurança e padronização durante a implementação:
 
 - Git Flow;
 - Estratégia de Branches;
@@ -334,6 +335,7 @@ Merge
 
 Deploy
 ```
+
 ---
 
 # Boas Práticas

@@ -1,6 +1,7 @@
 # Integração Contínua (CI) e Entrega Contínua (CD)
 
 ## Índice
+
 - [Integração Contínua (CI) e Entrega Contínua (CD)](#integração-contínua-ci-e-entrega-contínua-cd)
   - [Índice](#índice)
 - [Objetivo](#objetivo)
@@ -23,6 +24,9 @@
   - [Objetivo](#objetivo-4)
     - [Como será utilizado neste projeto](#como-será-utilizado-neste-projeto-3)
     - [Benefícios](#benefícios-3)
+- [Templates do GitHub](#templates-do-github)
+  - [Issue Templates](#issue-templates)
+  - [Pull Request Template](#pull-request-template)
 - [Integração Contínua (CI)](#integração-contínua-ci)
   - [Objetivo](#objetivo-5)
     - [Fluxo](#fluxo)
@@ -149,13 +153,13 @@ Executar validações automaticamente antes de permitir commits.
 
 ### Como será utilizado neste projeto
 
-Antes de cada commit poderão ser executadas verificações como:
+Antes de cada commit serão executadas automaticamente:
 
-- formatação;
-- lint;
-- validações configuradas.
+- ESLint;
+- verificação de formatação com Prettier;
+- testes automatizados do Vitest.
 
-Caso alguma verificação falhe, o commit deverá ser corrigido antes de prosseguir.
+Caso alguma etapa falhe, o commit será bloqueado.
 
 ### Benefícios
 
@@ -178,7 +182,9 @@ Durante a integração do código serão executadas automaticamente verificaçõ
 Exemplos:
 
 - instalação das dependências;
-- execução do lint;
+- execução do ESLint;
+- verificação da formatação com Prettier;
+- execução dos testes automatizados;
 - validação da build.
 
 ### Benefícios
@@ -186,6 +192,37 @@ Exemplos:
 - aumenta confiabilidade;
 - reduz falhas;
 - automatiza verificações.
+
+---
+
+# Templates do GitHub
+
+Para padronizar o fluxo de colaboração do projeto serão utilizados os recursos nativos do GitHub.
+
+## Issue Templates
+
+Os Issue Templates auxiliam na abertura de novas solicitações, garantindo que todas as informações necessárias sejam fornecidas.
+
+Serão disponibilizados modelos específicos para:
+
+- Bug Report;
+- Feature Request;
+- Refactor;
+- Task;
+- Documentation.
+
+Além disso, será utilizada uma configuração padrão para organização da criação de Issues.
+
+## Pull Request Template
+
+Todo Pull Request utilizará um modelo padronizado contendo informações sobre:
+
+- objetivo da alteração;
+- escopo;
+- validações executadas;
+- checklist da atividade.
+
+Essa padronização facilita revisões e mantém o histórico organizado.
 
 ---
 
@@ -206,11 +243,19 @@ GitHub Actions
 
 ↓
 
-Instalação das dependências
+Instalação das Dependências
 
 ↓
 
 ESLint
+
+↓
+
+Prettier
+
+↓
+
+Testes
 
 ↓
 
@@ -254,6 +299,18 @@ Husky
 
 ↓
 
+ESLint
+
+↓
+
+Prettier
+
+↓
+
+Testes
+
+↓
+
 Push
 
 ↓
@@ -266,15 +323,23 @@ GitHub Actions
 
 ↓
 
+Instalação das Dependências
+
+↓
+
 ESLint
 
 ↓
 
-Build
+Prettier
 
 ↓
 
-Validação
+Testes
+
+↓
+
+Build
 
 ↓
 
@@ -301,7 +366,9 @@ Antes de qualquer merge deverão ser atendidos os seguintes critérios:
 
 - documentação atualizada;
 - código revisado;
-- lint sem erros;
+- ESLint sem erros;
+- Prettier validado;
+- testes executados com sucesso;
 - build executada com sucesso;
 - requisitos da etapa concluídos.
 
@@ -365,6 +432,7 @@ Esta etapa será considerada concluída quando:
 - [x] Entrega Contínua documentada
 - [x] Fluxo automatizado definido
 - [x] Diretrizes de segurança registradas
+- [x] Testes automatizados documentados
 
 ---
 
@@ -391,4 +459,3 @@ Esta etapa será considerada concluída quando:
 - Vercel → [Site Oficial](https://vercel.com/) | [Documentação](https://vercel.com/docs)
 
 ---
-
