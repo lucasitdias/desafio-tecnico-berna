@@ -147,6 +147,7 @@ Todo o desenvolvimento deste repositório foi realizado tomando o documento do d
 [desafio-tecnico-berna](https://desafio-tecnico-berna-lucasitdev.vercel.app/)
 
 **Repositório**
+
 > Deploy (Vercel)
 
 _Será adicionado após a publicação da aplicação._
@@ -270,6 +271,7 @@ Foram validados os seguintes aspectos em cada resolução:
 ![Dashboard Mobile](docs/img/dashboard-mobile.png)
 
 ---
+
 <!--
 docs/img/login-mobile.png
 
@@ -797,6 +799,7 @@ Após a publicação, a plataforma executará automaticamente:
 A aplicação está disponível em ambiente de produção no endereço abaixo:
 
 **https://desafio-tecnico-berna-lucasitdev.vercel.app/**
+
 ## Aplicação
 
 [Link da aplicação publicada na Vercel](URL_DO_DEPLOY)
