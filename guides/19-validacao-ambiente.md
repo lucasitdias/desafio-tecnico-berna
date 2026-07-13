@@ -716,16 +716,16 @@ Esta etapa será considerada concluída quando:
 
 # Checklist
 
-- [ ] Estrutura validada
-- [ ] Dependências validadas
-- [ ] Aplicação executando
+- [x] Estrutura validada
+- [x] Dependências validadas
+- [x] Aplicação executando
 - [x] ESLint validado
 - [x] Prettier validado
 - [x] Build validado
 - [x] Husky validado
 - [x] GitHub Actions validado
-- [ ] Vercel validada
-- [ ] Ambiente completamente preparado
+- [x] Vercel validada
+- [x] Ambiente completamente preparado
 
 ---
 

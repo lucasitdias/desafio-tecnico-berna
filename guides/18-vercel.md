@@ -736,14 +736,14 @@ Esta etapa será considerada concluída quando:
 
 # Checklist
 
-- [ ] Conta criada na Vercel
-- [ ] Repositório importado
-- [ ] Configurações revisadas
-- [ ] Deploy realizado
-- [ ] URL pública gerada
-- [ ] Aplicação acessível
-- [ ] Funcionalidades validadas
-- [ ] Publicação concluída
+- [x] Conta criada na Vercel
+- [x] Repositório importado
+- [x] Configurações revisadas
+- [x] Deploy realizado
+- [x] URL pública gerada
+- [x] Aplicação acessível
+- [x] Funcionalidades validadas
+- [x] Publicação concluída
 
 ---
 
