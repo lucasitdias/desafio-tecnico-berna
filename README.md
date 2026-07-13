@@ -8,6 +8,7 @@
   Desafio Técnico • Desenvolvedor Júnior
 </p>
 
+<div align="center">
 <p align="center">
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
@@ -17,6 +18,9 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)
 
+</div>
+
+<h1 align="center">Sobre o Projeto</h1>
 </p>
 
 <p align="center">
@@ -55,9 +59,94 @@ Todo o desenvolvimento deste repositório foi realizado tomando o documento do d
 
 ---
 
+# Índice
+
+- [Índice](#índice)
+- [Demonstração](#demonstração)
+  - [Aplicação](#aplicação)
+  - [Telas](#telas)
+    - [Login](#login)
+    - [Dashboard](#dashboard)
+    - [Recuperação de Senha](#recuperação-de-senha)
+    - [Verificação de Código](#verificação-de-código)
+    - [Redefinição de Senha](#redefinição-de-senha)
+  - [Responsividade](#responsividade)
+    - [Testes de Responsividade Mobile](#testes-de-responsividade-mobile)
+    - [Login](#login-1)
+    - [Dashboard](#dashboard-1)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Front-end](#front-end)
+  - [Qualidade de Código](#qualidade-de-código)
+  - [Configuração do Editor](#configuração-do-editor)
+  - [Testes](#testes)
+  - [Automação](#automação)
+  - [Versionamento](#versionamento)
+  - [Deploy](#deploy)
+- [Requisitos e Checklist](#requisitos-e-checklist)
+  - [Requisitos do Desafio](#requisitos-do-desafio)
+  - [Implementação Técnica](#implementação-técnica)
+- [Funcionalidades Implementadas](#funcionalidades-implementadas)
+  - [Login](#login-2)
+  - [Dashboard](#dashboard-2)
+  - [Validações](#validações)
+- [Melhorias Implementadas](#melhorias-implementadas)
+  - [Qualidade de Código](#qualidade-de-código-1)
+  - [Testes](#testes-1)
+  - [Validação Local](#validação-local)
+  - [Experiência do Usuário (UX/UI)](#experiência-do-usuário-uxui)
+  - [Recuperação de Senha](#recuperação-de-senha-1)
+  - [Documentação](#documentação)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Arquitetura](#arquitetura)
+  - [Pages](#pages)
+  - [Components](#components)
+  - [Services](#services)
+  - [Utils](#utils)
+  - [Constants](#constants)
+  - [Routes](#routes)
+  - [Assets](#assets)
+  - [Styles](#styles)
+  - [Test](#test)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Clonando o repositório](#clonando-o-repositório)
+  - [Instalando as dependências](#instalando-as-dependências)
+  - [Executando em modo de desenvolvimento](#executando-em-modo-de-desenvolvimento)
+  - [Gerando a versão de produção](#gerando-a-versão-de-produção)
+  - [Visualizando a build localmente](#visualizando-a-build-localmente)
+- [Scripts Disponíveis](#scripts-disponíveis)
+- [Testes](#testes-2)
+  - [Cobertura atual](#cobertura-atual)
+- [Integração Contínua (CI)](#integração-contínua-ci)
+- [Qualidade Local](#qualidade-local)
+- [Deploy](#deploy-1)
+  - [Ambiente de Produção](#ambiente-de-produção)
+- [Segurança](#segurança)
+  - [Possível Integração com Banco de Dados](#possível-integração-com-banco-de-dados)
+- [Decisões Técnicas](#decisões-técnicas)
+  - [Organização por responsabilidades](#organização-por-responsabilidades)
+  - [Componentização](#componentização)
+  - [Validações centralizadas](#validações-centralizadas)
+  - [Simulação de autenticação](#simulação-de-autenticação)
+- [Documentação](#documentação-1)
+  - [Documentação técnica](#documentação-técnica)
+  - [Guias de configuração](#guias-de-configuração)
+- [Melhorias Futuras](#melhorias-futuras)
+- [Referências](#referências)
+- [Autor](#autor)
+- [Licença](#licença)
+
+---
+
 # Demonstração
 
 ## Aplicação
+
+**Deploy em Produção**
+
+[desafio-tecnico-berna](https://desafio-tecnico-berna-lucasitdev.vercel.app/)
+
+**Repositório**
 
 > Deploy (Vercel)
 
@@ -71,6 +160,33 @@ _Será adicionado após a publicação da aplicação._
 
 ## Telas
 
+### Login
+
+![Login Desktop](docs/img/login-desktop.png)
+
+---
+
+### Dashboard
+
+![Dashboard Desktop](docs/img/dashboard-desktop.png)
+
+---
+
+### Recuperação de Senha
+
+![Forgot Password](docs/img/forgot-password.png)
+
+---
+
+### Verificação de Código
+
+![Verify Code](docs/img/verify-code.png)
+
+---
+
+### Redefinição de Senha
+
+![Reset Password](docs/img/reset-password.png)
 <!--
 Adicionar captura da tela de Login.
 
@@ -140,6 +256,22 @@ Foram validados os seguintes aspectos em cada resolução:
 - Navegação entre páginas;
 - Dashboard autenticado.
 
+---
+
+### Testes de Responsividade Mobile
+
+### Login
+
+![Login Mobile](docs/img/login-mobile.png)
+
+---
+
+### Dashboard
+
+![Dashboard Mobile](docs/img/dashboard-mobile.png)
+
+---
+
 <!--
 docs/img/login-mobile.png
 
@@ -208,6 +340,7 @@ Abaixo estão os requisitos definidos no desafio e os itens adicionais relaciona
 - [x] Rotas Privadas
 - [x] Responsividade
 - [x] README do projeto
+- [x] Deploy na Vercel
 - [ ] Deploy na Vercel
 
 ## Implementação Técnica
@@ -326,6 +459,7 @@ desafio-tecnico-berna/
 ├── .husky/                  # Hooks de pré-commit
 │
 ├── docs/                    # Documentação técnica
+│   ├── img/                 # Imagens dos testes
 │   ├── img/
 │   ├── 00-planejamento-geral.md
 │   ├── 01-planejamento.md
@@ -493,6 +627,7 @@ src/test/
 
 É necessário possuir instalado:
 
+- Node.js (versão utilizada no desenvolvimento: 24.x)
 - Node.js v24 LTS
 - npm
 - Git
@@ -502,6 +637,7 @@ src/test/
 ## Clonando o repositório
 
 ```bash
+git clone https://github.com/lucasitdias/desafio-tecnico-berna.git
 git clone <https://github.com/lucasitdias/desafio-tecnico-berna.git>
 ```
 
@@ -647,6 +783,9 @@ Caso alguma dessas etapas falhe, o commit é interrompido até que o problema se
 
 # Deploy
 
+O deploy da aplicação foi realizado utilizando a **Vercel**, conforme especificado no desafio.
+
+A cada nova publicação, a plataforma executa automaticamente:
 O deploy da aplicação será realizado utilizando a **Vercel**, conforme especificado no desafio.
 
 Após a publicação, a plataforma executará automaticamente:
@@ -654,6 +793,12 @@ Após a publicação, a plataforma executará automaticamente:
 - Instalação das dependências;
 - Build da aplicação;
 - Publicação da versão de produção.
+
+## Ambiente de Produção
+
+A aplicação está disponível em ambiente de produção no endereço abaixo:
+
+**https://desafio-tecnico-berna-lucasitdev.vercel.app/**
 
 ## Aplicação
 
@@ -782,6 +927,46 @@ Algumas melhorias poderiam ser implementadas em uma evolução futura do projeto
 
 ---
 
+# Referências
+
+- React → [Site Oficial](https://react.dev/) | [Documentação](https://react.dev/)
+- React Router DOM → [Site Oficial](https://reactrouter.com/) | [Documentação](https://reactrouter.com/start/declarative/installation)
+- Vite → [Site Oficial](https://vite.dev/) | [Documentação](https://vite.dev/guide/)
+- Tailwind CSS → [Site Oficial](https://tailwindcss.com/) | [Documentação](https://tailwindcss.com/docs)
+- Lucide React → [Site Oficial](https://lucide.dev/) | [Documentação](https://lucide.dev/guide/packages/lucide-react)
+- Vitest → [Site Oficial](https://vitest.dev/) | [Documentação](https://vitest.dev/guide/)
+- Testing Library → [Site Oficial](https://testing-library.com/) | [Documentação](https://testing-library.com/docs/)
+- JSDOM → [Repositório](https://github.com/jsdom/jsdom) | [Documentação](https://github.com/jsdom/jsdom#readme)
+- ESLint → [Site Oficial](https://eslint.org/) | [Documentação](https://eslint.org/docs/latest/)
+- Prettier → [Site Oficial](https://prettier.io/) | [Documentação](https://prettier.io/docs/)
+- EditorConfig → [Site Oficial](https://editorconfig.org/) | [Documentação](https://editorconfig.org/)
+- Husky → [Site Oficial](https://typicode.github.io/husky/) | [Documentação](https://typicode.github.io/husky/)
+- Git → [Site Oficial](https://git-scm.com/) | [Documentação](https://git-scm.com/doc)
+- GitHub → [Site Oficial](https://github.com/) | [Documentação](https://docs.github.com/)
+- GitHub Actions → [Site Oficial](https://github.com/features/actions) | [Documentação](https://docs.github.com/actions)
+- Vercel → [Site Oficial](https://vercel.com/) | [Documentação](https://vercel.com/docs)
+
+---
+
+# Autor
+
+<div align="center">
+
+<p><strong><font size="5">👨‍💻 Lucas Luigi Dias Custodio</font></strong></p>
+
+Estudante do **4º semestre de Ciência da Computação**, com foco em **Desenvolvimento de Software**, **Qualidade de Código**, **Infraestrutura** e **Boas Práticas**.
+
+<p>
+  <a href="https://github.com/lucasitdias" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-lucasitdias-181717?logo=github&logoColor=white" alt="GitHub">
+  </a>
+
+  <a href="https://www.linkedin.com/in/lucasitdias/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Lucas%20Luigi%20Dias%20Custodio-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
+
+</div>
 # Autor
 
 Desenvolvido por **Lucas Luigi Dias Custodio**.
@@ -798,6 +983,9 @@ LinkedIn: https://www.linkedin.com/in/lucasitdias/
 
 # Licença
 
+Projeto desenvolvido para fins de avaliação técnica no **Desafio Técnico Berna**.
+
+O código-fonte permanece disponível para estudo e demonstração de conhecimento técnico.
 Projeto foi desenvolvido para fins de avaliação, como parte do **Desafio Técnico Berna**.
 
 O código permanece disponível para fins de estudo e demonstração de conhecimento técnico.
