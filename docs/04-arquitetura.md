@@ -324,7 +324,7 @@ Exemplo:
 ```text
 LoginPage.jsx
 
-ProtectedRoute.jsx
+PrivateRoute.jsx
 
 LoginForm.jsx
 ```

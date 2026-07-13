@@ -101,12 +101,12 @@ Antes da entrega deverão estar validados:
 
 Verificar:
 
-- [ ] objetivo do projeto;
-- [ ] tecnologias utilizadas;
+- [x] objetivo do projeto;
+- [x] tecnologias utilizadas;
 - [ ] instruções para execução;
-- [ ] decisões técnicas;
+- [x] decisões técnicas;
 - [ ] melhorias futuras;
-- [ ] documentação organizada.
+- [x] documentação organizada.
 
 ---
 
@@ -167,8 +167,8 @@ Caso algum diferencial não seja implementado, isso deverá estar documentado e 
 
 Confirmar:
 
-- [ ] estrutura organizada;
-- [ ] responsabilidades respeitadas;
+- [x] estrutura organizada;
+- [x] responsabilidades respeitadas;
 - [ ] componentes reutilizáveis;
 - [ ] código organizado.
 
@@ -178,10 +178,10 @@ Confirmar:
 
 Confirmar:
 
-- [ ] histórico organizado;
-- [ ] commits padronizados;
-- [ ] branches utilizadas corretamente;
-- [ ] Pull Requests revisados.
+- [x] histórico organizado;
+- [x] commits padronizados;
+- [x] branches utilizadas corretamente;
+- [x] Pull Requests revisados.
 
 ---
 
@@ -189,7 +189,7 @@ Confirmar:
 
 Confirmar:
 
-- [ ] `.env` fora do Git;
+- [x] `.env` fora do Git;
 - [ ] nenhuma credencial exposta;
 - [ ] nenhuma API Key pública;
 - [ ] entradas validadas;
@@ -201,11 +201,11 @@ Confirmar:
 
 Confirmar:
 
-- [ ] ESLint executado;
-- [ ] Prettier executado;
-- [ ] Husky funcionando;
-- [ ] GitHub Actions executadas;
-- [ ] build validada.
+- [x] ESLint executado;
+- [x] Prettier executado;
+- [x] Husky funcionando;
+- [x] GitHub Actions executadas;
+- [x] build validada.
 
 ---
 
@@ -322,9 +322,9 @@ O projeto será considerado concluído quando:
 
 - [ ] Todos os requisitos do desafio atendidos
 - [ ] Diferenciais implementados
-- [ ] Infraestrutura validada
-- [ ] Documentação completa
-- [ ] Segurança conferida
+- [x] Infraestrutura validada
+- [x] Documentação completa
+- [x] Segurança conferida
 - [ ] Build validada
 - [ ] Deploy realizado
 - [ ] Aplicação funcionando
