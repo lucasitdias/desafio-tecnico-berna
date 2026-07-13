@@ -719,11 +719,11 @@ Esta etapa será considerada concluída quando:
 - [ ] Estrutura validada
 - [ ] Dependências validadas
 - [ ] Aplicação executando
-- [ ] ESLint validado
-- [ ] Prettier validado
-- [ ] Build validado
-- [ ] Husky validado
-- [ ] GitHub Actions validado
+- [x] ESLint validado
+- [x] Prettier validado
+- [x] Build validado
+- [x] Husky validado
+- [x] GitHub Actions validado
 - [ ] Vercel validada
 - [ ] Ambiente completamente preparado
 
