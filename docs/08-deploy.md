@@ -275,14 +275,14 @@ Esta etapa será considerada concluída quando:
 
 # Checklist
 
-- [ ] Aplicação validada
-- [ ] Build executada
-- [ ] Documentação revisada
-- [ ] Repositório conferido
-- [ ] Deploy realizado
-- [ ] Aplicação validada online
-- [ ] GitHub atualizado
-- [ ] Links prontos para entrega
+- [x] Aplicação validada
+- [x] Build executada
+- [x] Documentação revisada
+- [x] Repositório conferido
+- [x] Deploy realizado
+- [x] Aplicação validada online
+- [x] GitHub atualizado
+- [x] Links prontos para entrega
 
 ---
 
