@@ -103,9 +103,9 @@ Verificar:
 
 - [x] objetivo do projeto;
 - [x] tecnologias utilizadas;
-- [ ] instruções para execução;
+- [x] instruções para execução;
 - [x] decisões técnicas;
-- [ ] melhorias futuras;
+- [x] melhorias futuras;
 - [x] documentação organizada.
 
 ---
@@ -114,28 +114,28 @@ Verificar:
 
 ## Interface
 
-- [ ] tela de login implementada;
-- [ ] campo de e-mail;
-- [ ] campo de senha;
-- [ ] botão de autenticação;
-- [ ] feedback visual.
+- [x] tela de login implementada;
+- [x] campo de e-mail;
+- [x] campo de senha;
+- [x] botão de autenticação;
+- [x] feedback visual.
 
 ---
 
 ## Validações
 
-- [ ] e-mail validado;
-- [ ] senha validada;
-- [ ] mensagens claras;
-- [ ] comportamento conforme o desafio.
+- [x] e-mail validado;
+- [x] senha validada;
+- [x] mensagens claras;
+- [x] comportamento conforme o desafio.
 
 ---
 
 ## Área Protegida
 
-- [ ] rota protegida criada;
-- [ ] redirecionamento funcionando;
-- [ ] acesso bloqueado para usuários não autenticados.
+- [x] rota protegida criada;
+- [x] redirecionamento funcionando;
+- [x] acesso bloqueado para usuários não autenticados.
 
 ---
 
@@ -143,11 +143,11 @@ Verificar:
 
 Validado em:
 
-- [ ] celular;
-- [ ] tablet;
-- [ ] notebook;
-- [ ] desktop;
-- [ ] monitor ultrawide.
+- [x] celular;
+- [x] tablet;
+- [x] notebook;
+- [x] desktop;
+- [x] monitor ultrawide.
 
 ---
 
@@ -155,9 +155,9 @@ Validado em:
 
 Caso implementados.
 
-- [ ] testes unitários;
-- [ ] Clean Code;
-- [ ] UX/UI refinada.
+- [x] testes unitários;
+- [x] Clean Code;
+- [x] UX/UI refinada.
 
 Caso algum diferencial não seja implementado, isso deverá estar documentado e não compromete o atendimento aos requisitos obrigatórios.
 
@@ -169,8 +169,8 @@ Confirmar:
 
 - [x] estrutura organizada;
 - [x] responsabilidades respeitadas;
-- [ ] componentes reutilizáveis;
-- [ ] código organizado.
+- [x] componentes reutilizáveis;
+- [x] código organizado.
 
 ---
 
@@ -190,10 +190,10 @@ Confirmar:
 Confirmar:
 
 - [x] `.env` fora do Git;
-- [ ] nenhuma credencial exposta;
-- [ ] nenhuma API Key pública;
-- [ ] entradas validadas;
-- [ ] dependências revisadas.
+- [x] nenhuma credencial exposta;
+- [x] nenhuma API Key pública;
+- [x] entradas validadas;
+- [x] dependências revisadas.
 
 ---
 
@@ -213,11 +213,11 @@ Confirmar:
 
 Confirmar:
 
-- [ ] aplicação publicada;
-- [ ] GitHub atualizado;
-- [ ] Vercel funcionando;
-- [ ] links conferidos;
-- [ ] documentação sincronizada.
+- [x] aplicação publicada;
+- [x] GitHub atualizado;
+- [x] Vercel funcionando;
+- [x] links conferidos;
+- [x] documentação sincronizada.
 
 ---
 
@@ -225,11 +225,11 @@ Confirmar:
 
 Antes da entrega verificar:
 
-- [ ] aplicação funcionando online;
-- [ ] repositório público;
-- [ ] README principal atualizado;
-- [ ] documentação completa;
-- [ ] links válidos.
+- [x] aplicação funcionando online;
+- [x] repositório público;
+- [x] README principal atualizado;
+- [x] documentação completa;
+- [x] links válidos.
 
 ---
 
@@ -320,16 +320,16 @@ O projeto será considerado concluído quando:
 
 # Checklist Final
 
-- [ ] Todos os requisitos do desafio atendidos
-- [ ] Diferenciais implementados
+- [x] Todos os requisitos do desafio atendidos
+- [x] Diferenciais implementados
 - [x] Infraestrutura validada
 - [x] Documentação completa
 - [x] Segurança conferida
-- [ ] Build validada
-- [ ] Deploy realizado
-- [ ] Aplicação funcionando
-- [ ] GitHub atualizado
-- [ ] Projeto pronto para entrega
+- [x] Build validada
+- [x] Deploy realizado
+- [x] Aplicação funcionando
+- [x] GitHub atualizado
+- [x] Projeto pronto para entrega
 
 ---
 
