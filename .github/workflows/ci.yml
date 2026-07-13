@@ -1,0 +1,56 @@
+# Nome do workflow exibido no GitHub Actions.
+name: Continuous Integration
+
+# Eventos que acionam o workflow.
+on:
+  # Executa quando há envio de alterações para as branches informadas.
+  push:
+    branches:
+      - main
+      - dev
+
+  # Executa quando um Pull Request é aberto ou atualizado.
+  pull_request:
+    branches:
+      - main
+      - dev
+
+# Define os jobs do workflow.
+jobs:
+  # Job responsável por validar o projeto.
+  validate-project:
+    # Sistema operacional utilizado durante a execução.
+    runs-on: ubuntu-latest
+
+    # Etapas executadas pelo job.
+    steps:
+      # Baixa o código do repositório.
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      # Configura o ambiente Node.js.
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Define a versão do Node.js utilizada.
+          node-version: 24
+
+      # Instala as dependências do projeto.
+      - name: Instalar dependências
+        run: npm ci
+
+      # Executa a análise de código com ESLint.
+      - name: Executar ESLint
+        run: npm run lint
+
+      # Verifica a formatação do código.
+      - name: Verificar formatação
+        run: npm run format:check
+
+      # Executa os testes unitários.
+      - name: Executar testes unitários
+        run: npm test
+
+      # Gera a versão de produção da aplicação.
+      - name: Gerar build de produção
+        run: npm run build

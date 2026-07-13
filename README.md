@@ -1,0 +1,805 @@
+<p align="center">
+  <img src="docs/img/logo.png" alt="Logo Berna" width="220">
+</p>
+
+<h1 align="center"></h1>
+
+<p align="center">
+  Desafio Técnico • Desenvolvedor Júnior
+</p>
+
+<p align="center">
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-4-6E9F18?logo=vitest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)
+
+</p>
+
+<p align="center">
+
+</p>
+
+# Sobre o Projeto
+
+O objetivo deste desafio consiste em desenvolver uma interface de autenticação, segura e responsiva utilizando a seguinte stack tecnológica:
+
+- React.js
+- GitHub
+- Vercel
+- Tailwind CSS
+
+Os requisitos principais definidos foram:
+
+- Formulário de Login;
+- Validação dos dados;
+- Feedback visual para o usuário;
+- Dashboard protegido;
+- Rotas Privadas;
+- Responsividade;
+- README explicando a solução;
+- Deploy da aplicação utilizando Vercel.
+
+Também foram sugeridas boas práticas relacionadas a:
+
+- Clean Code;
+- Testes Unitários;
+- UX/UI;
+- Segurança;
+- Organização do projeto.
+
+Todo o desenvolvimento deste repositório foi realizado tomando o documento do desafio como referência.
+
+---
+
+# Demonstração
+
+## Aplicação
+
+> Deploy (Vercel)
+
+_Será adicionado após a publicação da aplicação._
+
+> Repositório
+
+[desafio-tecnico-berna](https://github.com/lucasitdias/desafio-tecnico-berna)
+
+---
+
+## Telas
+
+<!--
+Adicionar captura da tela de Login.
+
+docs/img/login-desktop.png
+
+![Login Desktop](docs/img/login-desktop.png)
+-->
+
+<!--
+Adicionar captura da Dashboard.
+
+docs/img/dashboard-desktop.png
+
+![Dashboard Desktop](docs/img/dashboard-desktop.png)
+-->
+
+<!--
+Adicionar captura da recuperação de senha.
+
+docs/img/forgot-password.png
+
+![Forgot Password](docs/img/forgot-password.png)
+-->
+
+<!--
+Adicionar captura da verificação de código.
+
+docs/img/verify-code.png
+
+![Verify Code](docs/img/verify-code.png)
+-->
+
+<!--
+Adicionar captura da redefinição de senha.
+
+docs/img/reset-password.png
+
+![Reset Password](docs/img/reset-password.png)
+-->
+
+---
+
+## Responsividade
+
+Interface desenvolvida utilizando **React** e **Tailwind CSS v4**, priorizando uma experiência consistente em diferentes resoluções de tela, desde dispositivos móveis até monitores ultrawide.
+
+Durante o desenvolvimento foram realizados testes manuais nos seguintes tamanhos de tela:
+
+| Dispositivo     | Largura |
+| --------------- | ------: |
+| Celular pequeno |  375 px |
+| Celular grande  |  430 px |
+| Tablet          |  768 px |
+| Notebook        | 1366 px |
+| Full HD         | 1920 px |
+| Ultrawide       | 2560 px |
+
+Foram validados os seguintes aspectos em cada resolução:
+
+- Layout responsivo;
+- Alinhamento dos componentes;
+- Espaçamentos;
+- Legibilidade dos textos;
+- Dimensionamento das imagens;
+- Campos do formulário;
+- Botões;
+- Navegação entre páginas;
+- Dashboard autenticado.
+
+<!--
+docs/img/login-mobile.png
+
+![Login Mobile](docs/img/login-mobile.png)
+-->
+
+<!--
+docs/img/dashboard-mobile.png
+
+![Dashboard Mobile](docs/img/dashboard-mobile.png)
+-->
+
+# Tecnologias Utilizadas
+
+## Front-end
+
+- React 19
+- React Router DOM
+- Vite
+- Tailwind CSS v4
+- Lucide React
+
+## Qualidade de Código
+
+- ESLint
+- Prettier
+
+## Configuração do Editor
+
+- EditorConfig
+
+## Testes
+
+- Vitest
+- Testing Library
+- JSDOM
+
+## Automação
+
+- Husky
+- GitHub Actions
+
+## Versionamento
+
+- Git
+- GitHub
+
+## Deploy
+
+- Vercel
+
+---
+
+# Requisitos e Checklist
+
+Abaixo estão os requisitos definidos no desafio e os itens adicionais relacionados à implementação do projeto.
+
+## Requisitos do Desafio
+
+- [x] Formulário de Login
+- [x] Validação de E-mail
+- [x] Validação de Senha
+- [x] Feedback visual de erro
+- [x] Estado de loading durante autenticação
+- [x] Dashboard protegido
+- [x] Rotas Privadas
+- [x] Responsividade
+- [x] README do projeto
+- [ ] Deploy na Vercel
+
+## Implementação Técnica
+
+- [x] React
+- [x] Tailwind CSS
+- [x] Testes Unitários
+
+> **Observação:** O Deploy será realizado na etapa final do projeto, conforme fluxo de entrega.
+
+---
+
+# Funcionalidades Implementadas
+
+## Login
+
+- Campo de e-mail;
+- Campo de senha;
+- Mostrar/Ocultar senha;
+- Checkbox "Lembrar-me";
+- Navegação para recuperação de senha;
+- Feedback visual de autenticação;
+- Estado de carregamento durante autenticação;
+- Redirecionamento após login bem-sucedido.
+
+---
+
+## Dashboard
+
+- Área protegida por autenticação;
+- Navegação segura;
+- Logout;
+
+---
+
+## Validações
+
+- Validação de e-mail;
+- Validação de senha;
+- Mensagens de erro;
+- Controle de autenticação via serviço mock.
+
+---
+
+# Melhorias Implementadas
+
+Além dos requisitos mínimos solicitados pelo desafio, foram implementadas melhorias voltadas à qualidade do desenvolvimento, padronização e manutenção do projeto.
+
+## Qualidade de Código
+
+- ESLint configurado;
+- Prettier configurado;
+- Husky para validações antes dos commits;
+- GitHub Actions para integração contínua.
+
+---
+
+## Testes
+
+- Testes unitários com Vitest;
+- Testing Library;
+- JSDOM configurado.
+
+---
+
+## Validação Local
+
+- Husky para validação antes dos commits;
+- Execução automática de:
+  - ESLint;
+  - Prettier;
+  - Testes unitários.
+
+## Experiência do Usuário (UX/UI)
+
+Além dos requisitos funcionais do desafio, foram adicionados alguns elementos para melhorar a experiência de navegação.
+
+- Mostrar/Ocultar senha no formulário de login;
+- Feedback visual durante autenticação;
+- Modal de boas-vindas no Dashboard.
+
+## Recuperação de Senha
+
+- Solicitação de recuperação por e-mail;
+- Envio de código de verificação (Mock);
+- Validação do código informado;
+- Redefinição da senha.
+
+---
+
+## Documentação
+
+O projeto possui documentação separada por assunto, contemplando:
+
+- Planejamento;
+- Arquitetura;
+- Desenvolvimento;
+- Segurança;
+- CI/CD;
+- Deploy;
+- Guias de configuração do ambiente;
+- Configuração de testes;
+- Checklist final do projeto.
+
+# Estrutura do Projeto
+
+O projeto foi organizado seguindo o princípio de separação de responsabilidades, facilitando manutenção, escalabilidade e reutilização dos componentes.
+
+```text
+desafio-tecnico-berna/
+│
+├── .github/                 # Workflows e templates do GitHub
+│   ├── issue_template/
+│   └── workflows/
+│
+├── .husky/                  # Hooks de pré-commit
+│
+├── docs/                    # Documentação técnica
+│   ├── img/
+│   ├── 00-planejamento-geral.md
+│   ├── 01-planejamento.md
+│   ├── 02-requisitos.md
+│   ├── 03-gitflow.md
+│   ├── 04-arquitetura.md
+│   ├── 05-desenvolvimento.md
+│   ├── 06-seguranca.md
+│   ├── 07-ci-cd.md
+│   ├── 08-deploy.md
+│   └── 09-checklist.md
+│
+├── guides/                  # Guias de configuração
+│   ├── 10-preparacao-ambiente.md
+│   ├── ...
+│   └── 20-configuracao-testes.md
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── constants/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── styles/
+│   ├── test/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .env.example
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# Arquitetura
+
+Arquitetura baseada em responsabilidades, mantendo cada camada responsável por uma única função dentro da aplicação.
+
+## Pages
+
+Responsáveis pela composição das telas e orquestração dos componentes.
+
+```text
+src/pages/
+```
+
+Exemplos:
+
+- Login
+- Dashboard
+- Recuperação de senha
+- Verificação de código
+- Redefinição de senha
+
+---
+
+## Components
+
+Contêm componentes reutilizáveis da interface.
+
+```text
+src/components/
+```
+
+Exemplos:
+
+- Button
+- Input
+- FeedbackMessage
+- Sidebar
+- Footer
+- DashboardWelcomeModal
+- PageTitle
+
+---
+
+## Services
+
+Responsáveis pelas regras de acesso aos serviços da aplicação.
+
+Foi utilizada uma autenticação mockada através de Promises para simular uma API.
+
+```text
+src/services/
+```
+
+---
+
+## Utils
+
+Contém funções utilitárias reutilizáveis.
+
+```text
+src/utils/
+```
+
+Exemplo:
+
+- Validação de e-mail
+- Validação de senha
+
+---
+
+## Constants
+
+Centraliza constantes utilizadas pela aplicação.
+
+```text
+src/constants/
+```
+
+---
+
+## Routes
+
+Responsável pelo gerenciamento das rotas públicas e privadas.
+
+```text
+src/routes/
+```
+
+Inclui a proteção da Dashboard através da `PrivateRoute`.
+
+---
+
+## Assets
+
+Armazena imagens utilizadas pela aplicação.
+
+```text
+src/assets/
+```
+
+---
+
+## Styles
+
+Centraliza os estilos globais da aplicação.
+
+```text
+src/styles/
+```
+
+---
+
+## Test
+
+Configuração do ambiente de testes e testes auxiliares.
+
+```text
+src/test/
+```
+
+---
+
+# Como Executar o Projeto
+
+## Pré-requisitos
+
+É necessário possuir instalado:
+
+- Node.js v24 LTS
+- npm
+- Git
+
+---
+
+## Clonando o repositório
+
+```bash
+git clone <https://github.com/lucasitdias/desafio-tecnico-berna.git>
+```
+
+```bash
+cd desafio-tecnico-berna
+```
+
+---
+
+## Instalando as dependências
+
+```bash
+npm install
+```
+
+---
+
+## Executando em modo de desenvolvimento
+
+```bash
+npm run dev
+```
+
+A aplicação ficará disponível em:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Gerando a versão de produção
+
+```bash
+npm run build
+```
+
+---
+
+## Visualizando a build localmente
+
+```bash
+npm run preview
+```
+
+---
+
+# Scripts Disponíveis
+
+| Script                 | Descrição                                  |
+| ---------------------- | ------------------------------------------ |
+| `npm run dev`          | Inicia o servidor de desenvolvimento       |
+| `npm run build`        | Gera a versão de produção                  |
+| `npm run preview`      | Executa a build localmente                 |
+| `npm run lint`         | Executa o ESLint                           |
+| `npm run format`       | Formata todo o projeto utilizando Prettier |
+| `npm run format:check` | Verifica a formatação do projeto           |
+| `npm test`             | Executa todos os testes unitários          |
+| `npm run test:watch`   | Executa os testes em modo observação       |
+| `npm run test:ui`      | Executa a interface gráfica do Vitest      |
+
+---
+
+# Testes
+
+O projeto utiliza **Vitest** como framework de testes unitários e **Testing Library** para configuração do ambiente de testes.
+
+Atualmente foram implementados testes para as regras de validação da aplicação, garantindo que alterações futuras não comprometam o funcionamento das funções críticas.
+
+## Cobertura atual
+
+- Validação de e-mail (`validateEmail`)
+- Validação de senha (`validatePassword`)
+- Configuração do ambiente de testes
+
+Os testes podem ser executados através dos comandos:
+
+```bash
+npm test
+```
+
+ou
+
+```bash
+npm run test:watch
+```
+
+---
+
+# Integração Contínua (CI)
+
+O projeto possui um workflow de **GitHub Actions** responsável por validar automaticamente a qualidade da aplicação sempre que ocorre um **Push** ou **Pull Request** para as branches principais do projeto.
+
+Durante a execução da pipeline são realizadas as seguintes etapas:
+
+- Instalação das dependências;
+- Análise estática com ESLint;
+- Verificação da formatação com Prettier;
+- Execução dos testes unitários;
+- Geração da build de produção.
+
+Fluxo da pipeline:
+
+```text
+Push / Pull Request
+        │
+        ▼
+npm ci
+        │
+        ▼
+ESLint
+        │
+        ▼
+Prettier
+        │
+        ▼
+Vitest
+        │
+        ▼
+Build
+        │
+        ▼
+Workflow aprovado
+```
+
+Essa validação automática ajuda a garantir que apenas código válido seja integrado ao projeto.
+
+---
+
+# Qualidade Local
+
+Antes de cada commit, o projeto executa automaticamente um conjunto de validações através do **Husky**.
+
+São executadas as seguintes verificações:
+
+- ESLint;
+- Prettier;
+- Testes unitários.
+
+Caso alguma dessas etapas falhe, o commit é interrompido até que o problema seja corrigido.
+
+---
+
+# Deploy
+
+O deploy da aplicação será realizado utilizando a **Vercel**, conforme especificado no desafio.
+
+Após a publicação, a plataforma executará automaticamente:
+
+- Instalação das dependências;
+- Build da aplicação;
+- Publicação da versão de produção.
+
+## Aplicação
+
+[Link da aplicação publicada na Vercel](URL_DO_DEPLOY)
+
+## Ambiente de Produção
+
+Deploy realizado utilizando a plataforma **Vercel**.
+
+---
+
+# Segurança
+
+Embora o desafio utilize autenticação simulada (Mock), algumas boas práticas foram adotadas durante o desenvolvimento.
+
+- Separação das regras de autenticação em Services;
+- Rotas privadas para proteção da Dashboard;
+- Validação dos dados antes da autenticação;
+- Arquivo `.env.example` preparado para futuras integrações;
+- Nenhuma informação sensível versionada no repositório.
+
+Atualmente o projeto não utiliza:
+
+- Banco de dados;
+- API externa;
+- Tokens;
+- Chaves de acesso;
+- Variáveis de ambiente obrigatórias.
+
+## Possível Integração com Banco de Dados
+
+Durante a análise das tecnologias sugeridas para o desafio, pesquisei sobre a utilização do **Neon PostgreSQL** como uma possível solução de persistência de dados.
+
+O Neon seria uma alternativa interessante para uma evolução futura da aplicação, principalmente para cenários onde fosse necessário armazenar informações como:
+
+- Usuários cadastrados;
+- Dados de autenticação;
+- Histórico de acessos;
+- Preferências do usuário;
+- Informações relacionadas ao perfil.
+
+A utilização do Neon permitiria integrar um banco de dados PostgreSQL oferecendo:
+
+- Compatibilidade com PostgreSQL;
+- Infraestrutura serverless;
+- Facilidade de integração com aplicações hospedadas na Vercel;
+- Escalabilidade conforme a necessidade da aplicação;
+- Redução da complexidade de gerenciamento de infraestrutura.
+
+---
+
+# Decisões Técnicas
+
+Durante o desenvolvimento foram adotadas decisões visando facilitar manutenção, organização e evolução do projeto.
+
+## Organização por responsabilidades
+
+A aplicação foi estruturada separando responsabilidades entre páginas, componentes, serviços e utilitários.
+
+Exemplos:
+
+- `pages` → telas da aplicação;
+- `components` → componentes reutilizáveis;
+- `services` → regras de comunicação e autenticação;
+- `utils` → funções auxiliares;
+- `constants` → valores compartilhados;
+- `routes` → gerenciamento das rotas.
+
+---
+
+## Componentização
+
+A interface foi dividida em componentes independentes, permitindo maior reutilização e facilitando futuras alterações.
+
+---
+
+## Validações centralizadas
+
+As regras de validação foram isoladas em utilitários específicos, permitindo reutilização e manutenção simplificada.
+
+---
+
+## Simulação de autenticação
+
+A autenticação foi implementada utilizando Promises para simular o comportamento de uma API, conforme proposto pelo desafio.
+
+---
+
+# Documentação
+
+Além deste README, o projeto possui documentação organizada em duas áreas.
+
+## Documentação técnica
+
+```text
+docs/
+```
+
+Contém documentos relacionados ao planejamento, arquitetura, desenvolvimento, segurança, CI/CD, deploy e checklist final do projeto.
+
+## Guias de configuração
+
+```text
+guides/
+```
+
+Contém guias utilizados durante a preparação do ambiente de desenvolvimento, configuração das ferramentas e validação do projeto.
+
+Essa organização permite separar a documentação de arquitetura da documentação operacional, facilitando a consulta e manutenção do projeto.
+
+---
+
+# Melhorias Futuras
+
+Algumas melhorias poderiam ser implementadas em uma evolução futura do projeto.
+
+- Integração com uma API real de autenticação;
+- Persistência de usuários em banco de dados;
+- Autenticação utilizando JWT;
+- Controle de renovação da sessão;
+- Rate Limit para proteção contra ataques de força bruta;
+- Recuperação de senha integrada a serviço de e-mail;
+- Testes de componentes e testes de integração;
+- Monitoramento da aplicação;
+- Aumento da cobertura de testes automatizados.
+
+---
+
+# Autor
+
+Desenvolvido por **Lucas Luigi Dias Custodio**.
+
+Estudante do **4º semestre de Ciência da Computação**, com foco em desenvolvimento de software, qualidade de código, infraestrutura e boas práticas de software.
+
+GitHub:
+
+**https://github.com/lucasitdias**
+
+LinkedIn: https://www.linkedin.com/in/lucasitdias/
+
+---
+
+# Licença
+
+Projeto foi desenvolvido para fins de avaliação, como parte do **Desafio Técnico Berna**.
+
+O código permanece disponível para fins de estudo e demonstração de conhecimento técnico.
+
+---

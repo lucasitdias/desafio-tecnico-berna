@@ -1,0 +1,27 @@
+# Indica que este é o arquivo EditorConfig raiz.
+root = true
+
+# Configurações padrão aplicadas a todos os arquivos.
+[*]
+# Define a codificação dos arquivos.
+charset = utf-8
+
+# Define o padrão de quebra de linha.
+end_of_line = lf
+
+# Garante uma linha em branco ao final do arquivo.
+insert_final_newline = true
+
+# Define o uso de espaços para indentação.
+indent_style = space
+
+# Define o tamanho da indentação.
+indent_size = 2
+
+# Remove espaços em branco ao final das linhas.
+trim_trailing_whitespace = true
+
+# Configurações específicas para arquivos Markdown.
+[*.md]
+# Mantém espaços em branco no final das linhas em arquivos Markdown.
+trim_trailing_whitespace = false
