@@ -9,6 +9,7 @@
 </p>
 
 <div align="center">
+<p align="center">
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
@@ -20,6 +21,13 @@
 </div>
 
 <h1 align="center">Sobre o Projeto</h1>
+</p>
+
+<p align="center">
+
+</p>
+
+# Sobre o Projeto
 
 O objetivo deste desafio consiste em desenvolver uma interface de autenticação, segura e responsiva utilizando a seguinte stack tecnológica:
 
@@ -139,6 +147,11 @@ Todo o desenvolvimento deste repositório foi realizado tomando o documento do d
 [desafio-tecnico-berna](https://desafio-tecnico-berna-lucasitdev.vercel.app/)
 
 **Repositório**
+> Deploy (Vercel)
+
+_Será adicionado após a publicação da aplicação._
+
+> Repositório
 
 [desafio-tecnico-berna](https://github.com/lucasitdias/desafio-tecnico-berna)
 
@@ -173,6 +186,45 @@ Todo o desenvolvimento deste repositório foi realizado tomando o documento do d
 ### Redefinição de Senha
 
 ![Reset Password](docs/img/reset-password.png)
+<!--
+Adicionar captura da tela de Login.
+
+docs/img/login-desktop.png
+
+![Login Desktop](docs/img/login-desktop.png)
+-->
+
+<!--
+Adicionar captura da Dashboard.
+
+docs/img/dashboard-desktop.png
+
+![Dashboard Desktop](docs/img/dashboard-desktop.png)
+-->
+
+<!--
+Adicionar captura da recuperação de senha.
+
+docs/img/forgot-password.png
+
+![Forgot Password](docs/img/forgot-password.png)
+-->
+
+<!--
+Adicionar captura da verificação de código.
+
+docs/img/verify-code.png
+
+![Verify Code](docs/img/verify-code.png)
+-->
+
+<!--
+Adicionar captura da redefinição de senha.
+
+docs/img/reset-password.png
+
+![Reset Password](docs/img/reset-password.png)
+-->
 
 ---
 
@@ -218,6 +270,17 @@ Foram validados os seguintes aspectos em cada resolução:
 ![Dashboard Mobile](docs/img/dashboard-mobile.png)
 
 ---
+<!--
+docs/img/login-mobile.png
+
+![Login Mobile](docs/img/login-mobile.png)
+-->
+
+<!--
+docs/img/dashboard-mobile.png
+
+![Dashboard Mobile](docs/img/dashboard-mobile.png)
+-->
 
 # Tecnologias Utilizadas
 
@@ -276,12 +339,15 @@ Abaixo estão os requisitos definidos no desafio e os itens adicionais relaciona
 - [x] Responsividade
 - [x] README do projeto
 - [x] Deploy na Vercel
+- [ ] Deploy na Vercel
 
 ## Implementação Técnica
 
 - [x] React
 - [x] Tailwind CSS
 - [x] Testes Unitários
+
+> **Observação:** O Deploy será realizado na etapa final do projeto, conforme fluxo de entrega.
 
 ---
 
@@ -392,6 +458,7 @@ desafio-tecnico-berna/
 │
 ├── docs/                    # Documentação técnica
 │   ├── img/                 # Imagens dos testes
+│   ├── img/
 │   ├── 00-planejamento-geral.md
 │   ├── 01-planejamento.md
 │   ├── 02-requisitos.md
@@ -559,6 +626,7 @@ src/test/
 É necessário possuir instalado:
 
 - Node.js (versão utilizada no desenvolvimento: 24.x)
+- Node.js v24 LTS
 - npm
 - Git
 
@@ -568,6 +636,7 @@ src/test/
 
 ```bash
 git clone https://github.com/lucasitdias/desafio-tecnico-berna.git
+git clone <https://github.com/lucasitdias/desafio-tecnico-berna.git>
 ```
 
 ```bash
@@ -715,6 +784,9 @@ Caso alguma dessas etapas falhe, o commit é interrompido até que o problema se
 O deploy da aplicação foi realizado utilizando a **Vercel**, conforme especificado no desafio.
 
 A cada nova publicação, a plataforma executa automaticamente:
+O deploy da aplicação será realizado utilizando a **Vercel**, conforme especificado no desafio.
+
+Após a publicação, a plataforma executará automaticamente:
 
 - Instalação das dependências;
 - Build da aplicação;
@@ -725,6 +797,13 @@ A cada nova publicação, a plataforma executa automaticamente:
 A aplicação está disponível em ambiente de produção no endereço abaixo:
 
 **https://desafio-tecnico-berna-lucasitdev.vercel.app/**
+## Aplicação
+
+[Link da aplicação publicada na Vercel](URL_DO_DEPLOY)
+
+## Ambiente de Produção
+
+Deploy realizado utilizando a plataforma **Vercel**.
 
 ---
 
@@ -885,6 +964,17 @@ Estudante do **4º semestre de Ciência da Computação**, com foco em **Desenvo
 </p>
 
 </div>
+# Autor
+
+Desenvolvido por **Lucas Luigi Dias Custodio**.
+
+Estudante do **4º semestre de Ciência da Computação**, com foco em desenvolvimento de software, qualidade de código, infraestrutura e boas práticas de software.
+
+GitHub:
+
+**https://github.com/lucasitdias**
+
+LinkedIn: https://www.linkedin.com/in/lucasitdias/
 
 ---
 
@@ -893,5 +983,8 @@ Estudante do **4º semestre de Ciência da Computação**, com foco em **Desenvo
 Projeto desenvolvido para fins de avaliação técnica no **Desafio Técnico Berna**.
 
 O código-fonte permanece disponível para estudo e demonstração de conhecimento técnico.
+Projeto foi desenvolvido para fins de avaliação, como parte do **Desafio Técnico Berna**.
+
+O código permanece disponível para fins de estudo e demonstração de conhecimento técnico.
 
 ---
