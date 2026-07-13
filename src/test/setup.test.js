@@ -1,10 +1,17 @@
-// Importa as funções utilizadas para criar e validar os testes.
-import { describe, expect, it } from 'vitest';
+// Importa as funções utilizadas para criação e execução dos testes.
+import { describe, it, expect } from 'vitest';
 
-// Agrupa os testes relacionados à configuração do Vitest.
+// Importa a função responsável pela validação de emails da aplicação.
+import { validateEmail } from '../utils/validators';
+
+// Agrupa os testes relacionados ao ambiente de testes e validações.
 describe('Configuração do Vitest', () => {
-  // Verifica se o ambiente de testes está funcionando corretamente.
-  it('deve executar o ambiente de testes corretamente', () => {
-    expect(true).toBe(true);
+  // Verifica se a função de validação de email retorna o resultado esperado.
+  it('deve validar um email corretamente', () => {
+    // Executa a validação utilizando um email considerado válido.
+    const result = validateEmail('lucas.dias@berna.com.br');
+
+    // Confirma que a validação retorna verdadeiro para um email válido.
+    expect(result).toBe(true);
   });
 });
