@@ -11,15 +11,15 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "test": "vitest run",
-    "test:run": "vitest run",
     "test:watch": "vitest",
-    "test:dev": "vitest",
     "test:ui": "vitest --ui",
     "prepare": "husky"
   },
   "dependencies": {
+    "lucide-react": "^1.24.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
